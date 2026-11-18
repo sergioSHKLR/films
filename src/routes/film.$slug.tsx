@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { getFilm, themeLabel } from "@/data/films";
+import brand from "@/lib/og/brand.json";
 import { noteKey, useProgress } from "@/lib/progress";
 
 export const Route = createFileRoute("/film/$slug")({
@@ -30,11 +31,14 @@ function FilmPage() {
     <div className="min-h-screen">
       <header className="border-b border-line">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4 sm:px-6">
-          <Link to="/" className="inline-flex min-h-11 items-center text-sm font-semibold text-fg">
-            ← Catalog
+          <Link
+            to="/"
+            className="inline-flex min-h-11 items-center text-xs font-semibold tracking-[0.22em] text-fg uppercase"
+          >
+            ← {brand.name}
           </Link>
-          <p className="text-sm text-muted tabular-nums">
-            {String(film.n).padStart(2, "0")} / 31
+          <p className="text-xs font-semibold tracking-[0.22em] text-accent tabular-nums uppercase">
+            No. {String(film.n).padStart(2, "0")}
           </p>
         </div>
       </header>
@@ -49,8 +53,8 @@ function FilmPage() {
             onClick={() => progress.toggleWatched(film.slug)}
             className={
               progress.isWatched(film.slug)
-                ? "mt-3 min-h-11 w-full rounded-card bg-accent text-sm font-semibold text-accent-ink"
-                : "mt-3 min-h-11 w-full rounded-card border border-line bg-surface text-sm font-semibold text-fg"
+                ? "mt-3 min-h-11 w-full bg-accent text-xs font-semibold tracking-[0.18em] text-accent-ink uppercase"
+                : "mt-3 min-h-11 w-full border border-line bg-surface text-xs font-semibold tracking-[0.18em] text-fg uppercase"
             }
           >
             {progress.isWatched(film.slug) ? "Watched" : "Mark watched"}
@@ -58,15 +62,16 @@ function FilmPage() {
         </div>
 
         <article>
-          <p className="text-sm font-semibold tracking-widest text-accent uppercase">
+          <p className="text-xs font-semibold tracking-[0.28em] text-muted uppercase">
             {film.year} · {film.kind === "series" ? "Series" : "Film"}
           </p>
-          <h1 className="mt-1 text-4xl text-fg sm:text-5xl">{film.title}</h1>
+          <h1 className="mt-2 text-4xl font-normal tracking-tight text-fg sm:text-5xl">{film.title}</h1>
+          <div className="mt-4 h-[3px] w-16" style={{ backgroundColor: brand.plate.copper }} />
           <ul className="mt-3 flex flex-wrap gap-2">
             {film.themes.map((theme) => (
               <li
                 key={theme}
-                className="rounded-full border border-line px-3 py-1 text-xs font-semibold tracking-wide text-muted uppercase"
+                className="border border-line px-3 py-1 text-[10px] font-semibold tracking-[0.18em] text-muted uppercase"
               >
                 {themeLabel[theme]}
               </li>

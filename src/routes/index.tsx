@@ -1,6 +1,7 @@
 import { useMemo, useState, type ReactNode } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { films, SOURCE_VIDEO, themeLabel, type FilmKind, type Theme } from "@/data/films";
+import brand from "@/lib/og/brand.json";
 import { useProgress } from "@/lib/progress";
 
 export const Route = createFileRoute("/")({ component: Home });
@@ -40,13 +41,16 @@ function Home() {
           <div className="flex items-end justify-between gap-4">
             <div>
               <p className="text-xs font-semibold tracking-[0.28em] text-muted uppercase">
-                Vol. 1 · Field catalog
+                {brand.lockup.runningHeadText}
               </p>
-              <h1 className="mt-2 text-5xl font-normal tracking-tight text-fg sm:text-6xl">
-                Watchlist
+              <h1 className="mt-2 font-display text-5xl font-normal tracking-tight text-fg sm:text-6xl">
+                {brand.name}
               </h1>
-              <div className="mt-4 h-[3px] w-16 bg-accent" />
-              <p className="mt-3 font-display text-lg italic text-fg/85">A field reading room</p>
+              <div
+                className="mt-4 h-[3px] w-16 bg-accent"
+                style={{ backgroundColor: brand.plate.copper }}
+              />
+              <p className="mt-3 font-display text-lg italic text-fg/85">{brand.lockup.italicLine}</p>
             </div>
             <p className="hidden text-right text-sm text-muted sm:block">
               <span className="tabular-nums text-fg">{watchedCount}</span> of {films.length} marked
@@ -131,11 +135,11 @@ function Home() {
                       className="h-full w-full object-cover transition duration-200 group-hover:scale-105"
                     />
                     {progress.isWatched(film.slug) ? (
-                      <span className="absolute top-2 left-2 rounded-full bg-accent px-2 py-1 text-xs font-semibold text-accent-ink">
+                      <span className="absolute top-2 left-2 bg-bg/90 px-2 py-1 text-[10px] font-semibold tracking-[0.22em] text-accent uppercase">
                         Watched
                       </span>
                     ) : null}
-                    <span className="absolute right-2 bottom-2 rounded-full bg-bg/80 px-2 py-1 text-xs font-semibold text-fg tabular-nums">
+                    <span className="absolute right-2 bottom-2 bg-bg/90 px-2 py-1 text-[10px] font-semibold tracking-[0.18em] text-fg tabular-nums">
                       {String(film.n).padStart(2, "0")}
                     </span>
                   </div>
@@ -172,6 +176,10 @@ function Home() {
             </a>
             . This catalog is not endorsed or certified by TMDB.
           </p>
+          <p className="mt-6 flex justify-between border-t border-line pt-4 text-[11px] tracking-[0.28em] text-muted uppercase">
+            <span>Films & series</span>
+            <span>Preparedness cinema</span>
+          </p>
         </div>
       </footer>
     </div>
@@ -181,7 +189,7 @@ function Home() {
 function ChipRow({ label, children }: { label: string; children: ReactNode }) {
   return (
     <div className="flex flex-wrap items-center gap-2">
-      <span className="w-16 shrink-0 text-xs font-semibold tracking-wide text-muted uppercase">
+      <span className="w-16 shrink-0 text-[11px] font-semibold tracking-[0.22em] text-muted uppercase">
         {label}
       </span>
       {children}
@@ -205,8 +213,8 @@ function Chip({
       aria-pressed={active}
       className={
         active
-          ? "min-h-11 rounded-full bg-accent px-3 text-sm font-semibold text-accent-ink"
-          : "min-h-11 rounded-full border border-line bg-surface px-3 text-sm font-semibold text-fg"
+          ? "min-h-11 border border-accent bg-accent px-3 text-sm font-semibold tracking-wide text-accent-ink uppercase"
+          : "min-h-11 border border-line bg-surface px-3 text-sm font-semibold tracking-wide text-fg uppercase"
       }
     >
       {children}

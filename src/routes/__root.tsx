@@ -1,9 +1,30 @@
 import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-router";
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
+import brand from "@/lib/og/brand.json";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Watchlist";
+const APP_NAME = brand.name;
+
+function brandFontHref() {
+  const family = (face: string) => face.replaceAll(" ", "+");
+  return (
+    "https://fonts.googleapis.com/css2?family=" +
+    `${family(brand.displayFace)}:ital,wght@0,400;0,700;1,400` +
+    `&family=${family(brand.bodyFace)}:ital,wght@0,400;0,600;0,700;1,400` +
+    "&display=swap"
+  );
+}
+
+/** Live plate and faces. Unlayered, so this wins over Tailwind's `@theme` layer. */
+function brandRootCss() {
+  const { background, foreground, copper } = brand.plate;
+  return (
+    `:root{--color-bg:${background};--color-fg:${foreground};--color-accent:${copper};` +
+    `--font-sans:"${brand.bodyFace}", ui-sans-serif, system-ui, sans-serif;` +
+    `--font-display:"${brand.displayFace}", ui-serif, Georgia, serif}`
+  );
+}
 
 export const Route = createRootRoute({
   head: () => ({
@@ -16,7 +37,7 @@ export const Route = createRootRoute({
         content:
           "Thirty-one films and series for a prepared civilian mindset: posters, cast, synopses, and discussion questions.",
       },
-      { name: "theme-color", content: "#14160f" },
+      { name: "theme-color", content: brand.plate.background },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
@@ -34,7 +55,7 @@ export const Route = createRootRoute({
       },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap",
+        href: brandFontHref(),
       },
     ],
   }),
@@ -42,11 +63,14 @@ export const Route = createRootRoute({
     <html lang="en" suppressHydrationWarning>
       <head>
         <HeadContent />
+        <style>{brandRootCss()}</style>
       </head>
       <body>
         <PreviewHostBridge />
         <AuthProvider>
-          <Outlet />
+          <div className="plate-frame min-h-screen">
+            <Outlet />
+          </div>
         </AuthProvider>
         <Scripts />
       </body>

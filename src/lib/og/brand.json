@@ -1,0 +1,17 @@
+{
+  "name": "Watchlist",
+  "plate": {
+    "background": "#14160f",
+    "foreground": "#efe8d6",
+    "copper": "#d06a2b"
+  },
+  "displayFace": "Libre Baskerville",
+  "bodyFace": "Source Sans 3",
+  "lockup": {
+    "runningHead": "tracked",
+    "runningHeadText": "Vol. 1 · Field catalog",
+    "wordmark": "serif",
+    "rule": "copper",
+    "italicLine": "A field reading room"
+  }
+}
