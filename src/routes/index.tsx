@@ -39,10 +39,14 @@ function Home() {
         <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8 sm:px-6">
           <div className="flex items-end justify-between gap-4">
             <div>
-              <p className="text-sm font-semibold tracking-widest text-accent uppercase">
+              <p className="text-xs font-semibold tracking-[0.28em] text-muted uppercase">
                 Vol. 1 · Field catalog
               </p>
-              <h1 className="mt-1 text-4xl text-fg sm:text-5xl">Watchlist</h1>
+              <h1 className="mt-2 text-5xl font-normal tracking-tight text-fg sm:text-6xl">
+                Watchlist
+              </h1>
+              <div className="mt-4 h-[3px] w-16 bg-accent" />
+              <p className="mt-3 font-display text-lg italic text-fg/85">A field reading room</p>
             </div>
             <p className="hidden text-right text-sm text-muted sm:block">
               <span className="tabular-nums text-fg">{watchedCount}</span> of {films.length} marked
