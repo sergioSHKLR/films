@@ -1,4 +1,4 @@
-# Prepared Films
+# Watchlist
 
 A single-page catalog of the 31 films and series in [Dirty Civilian’s *Films that Build the Prepared Civilian Mindset, Vol. 1*](https://www.youtube.com/watch?v=acveRw9DxTs).
 

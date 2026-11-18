@@ -42,7 +42,7 @@ function Home() {
               <p className="text-sm font-semibold tracking-widest text-accent uppercase">
                 Vol. 1 · Field catalog
               </p>
-              <h1 className="mt-1 text-4xl text-fg sm:text-5xl">Prepared Films</h1>
+              <h1 className="mt-1 text-4xl text-fg sm:text-5xl">Watchlist</h1>
             </div>
             <p className="hidden text-right text-sm text-muted sm:block">
               <span className="tabular-nums text-fg">{watchedCount}</span> of {films.length} marked
