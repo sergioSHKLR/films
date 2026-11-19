@@ -1,0 +1,312 @@
+[
+ {
+  "n": 1,
+  "slug": "the-patriot",
+  "title": "The Patriot",
+  "year": 2000,
+  "kind": "film",
+  "imdb": "tt0187393",
+  "tmdbPath": "/movie/2024",
+  "synopsis": "A South Carolina planter who meant to sit out the Revolutionary War is pulled in when British regulars reach his family and his land."
+ },
+ {
+  "n": 2,
+  "slug": "snowpiercer",
+  "title": "Snowpiercer",
+  "year": 2013,
+  "kind": "film",
+  "imdb": "tt1706620",
+  "tmdbPath": "/movie/110415",
+  "synopsis": "After a climate experiment freezes the earth, what is left of humanity lives on a train whose cars are a class system with no honest exit."
+ },
+ {
+  "n": 3,
+  "slug": "district-9",
+  "title": "District 9",
+  "year": 2009,
+  "kind": "film",
+  "imdb": "tt1136608",
+  "tmdbPath": "/movie/17654",
+  "synopsis": "A Johannesburg bureaucrat sent to evict stranded aliens is contaminated and starts becoming the people the state taught him to move."
+ },
+ {
+  "n": 4,
+  "slug": "the-eternaut",
+  "title": "The Eternaut",
+  "year": 2025,
+  "kind": "series",
+  "imdb": "tt27740241",
+  "tmdbPath": "/tv/226362",
+  "synopsis": "A deadly snowfall drives Buenos Aires indoors. A small circle has to learn what fell, who is lying about it, and how to keep their people alive."
+ },
+ {
+  "n": 5,
+  "slug": "andor",
+  "title": "Andor",
+  "year": 2022,
+  "kind": "series",
+  "imdb": "tt9253284",
+  "tmdbPath": "/tv/83867",
+  "synopsis": "A thief who only wanted to stay alive is hired, compromised, and finally committed to a rebellion that already has accountants and martyrs."
+ },
+ {
+  "n": 6,
+  "slug": "chernobyl",
+  "title": "Chernobyl",
+  "year": 2019,
+  "kind": "series",
+  "imdb": "tt7366338",
+  "tmdbPath": "/tv/87108",
+  "synopsis": "The 1986 reactor explosion, and the officials who treated the truth as a bigger threat than the radiation."
+ },
+ {
+  "n": 7,
+  "slug": "death-of-stalin",
+  "title": "The Death of Stalin",
+  "year": 2017,
+  "kind": "film",
+  "imdb": "tt4686844",
+  "tmdbPath": "/movie/402897",
+  "synopsis": "In the hours after Stalin dies, the men who feared him start lying, bargaining, and arranging each other's funerals."
+ },
+ {
+  "n": 8,
+  "slug": "johnny-tremain",
+  "title": "Johnny Tremain",
+  "year": 1957,
+  "kind": "film",
+  "imdb": "tt0050567",
+  "tmdbPath": "/movie/43229",
+  "synopsis": "A proud Boston apprentice loses the use of his hand and, with his trade, the excuse to stay out of the fight."
+ },
+ {
+  "n": 9,
+  "slug": "captain-fantastic",
+  "title": "Captain Fantastic",
+  "year": 2016,
+  "kind": "film",
+  "imdb": "tt3553976",
+  "tmdbPath": "/movie/334533",
+  "synopsis": "A father who raised his children in the woods is forced to bring them into the society he spent years refusing."
+ },
+ {
+  "n": 10,
+  "slug": "braveheart",
+  "title": "Braveheart",
+  "year": 1995,
+  "kind": "film",
+  "imdb": "tt0112573",
+  "tmdbPath": "/movie/197",
+  "synopsis": "William Wallace turns a private killing into a war for Scottish independence, and the film does not pretend the cost stays private."
+ },
+ {
+  "n": 11,
+  "slug": "the-matrix",
+  "title": "The Matrix",
+  "year": 1999,
+  "kind": "film",
+  "imdb": "tt0133093",
+  "tmdbPath": "/movie/603",
+  "synopsis": "A programmer learns that his ordinary life is a constructed prison. Getting out is not the same as being ready for what is outside."
+ },
+ {
+  "n": 12,
+  "slug": "swiss-family-robinson",
+  "title": "Swiss Family Robinson",
+  "year": 1960,
+  "kind": "film",
+  "imdb": "tt0054357",
+  "tmdbPath": "/movie/18444",
+  "synopsis": "A shipwrecked family turns a deserted island into a house, a division of labor, and a defense."
+ },
+ {
+  "n": 13,
+  "slug": "letters-from-iwo-jima",
+  "title": "Letters from Iwo Jima",
+  "year": 2006,
+  "kind": "film",
+  "imdb": "tt0498380",
+  "tmdbPath": "/movie/1251",
+  "synopsis": "The battle of Iwo Jima from the Japanese defenders: letters home, a commander who knows the math, and orders that will not be survived."
+ },
+ {
+  "n": 14,
+  "slug": "saints-and-soldiers",
+  "title": "Saints and Soldiers",
+  "year": 2003,
+  "kind": "film",
+  "imdb": "tt0373283",
+  "tmdbPath": "/movie/10105",
+  "synopsis": "After the Malmédy massacre, a few American soldiers try to stay a unit, stay moving, and stay human in the snow."
+ },
+ {
+  "n": 15,
+  "slug": "we-were-soldiers",
+  "title": "We Were Soldiers",
+  "year": 2002,
+  "kind": "film",
+  "imdb": "tt0277434",
+  "tmdbPath": "/movie/10590",
+  "synopsis": "Ia Drang, told as a commander who stays on the ground with his men and as the families at home waiting on the casualty list."
+ },
+ {
+  "n": 16,
+  "slug": "black-hawk-down",
+  "title": "Black Hawk Down",
+  "year": 2001,
+  "kind": "film",
+  "imdb": "tt0265086",
+  "tmdbPath": "/movie/855",
+  "synopsis": "Mogadishu, 1993. A raid breaks into a night of small decisions, casualties, and people who will not leave their own behind."
+ },
+ {
+  "n": 17,
+  "slug": "gattaca",
+  "title": "Gattaca",
+  "year": 1997,
+  "kind": "film",
+  "imdb": "tt0119177",
+  "tmdbPath": "/movie/782",
+  "synopsis": "In a society that reads DNA as destiny, a man born with the “wrong” genome borrows another man's identity to reach the stars."
+ },
+ {
+  "n": 18,
+  "slug": "minority-report",
+  "title": "Minority Report",
+  "year": 2002,
+  "kind": "film",
+  "imdb": "tt0181689",
+  "tmdbPath": "/movie/180",
+  "synopsis": "Police arrest people for murders that have not happened yet — until the machine names one of the men who runs it."
+ },
+ {
+  "n": 19,
+  "slug": "silo",
+  "title": "Silo",
+  "year": 2023,
+  "kind": "series",
+  "imdb": "tt14688458",
+  "tmdbPath": "/tv/125988",
+  "synopsis": "An underground city of 144 levels is told the surface will kill them. A few residents start checking the story."
+ },
+ {
+  "n": 20,
+  "slug": "v-for-vendetta",
+  "title": "V for Vendetta",
+  "year": 2006,
+  "kind": "film",
+  "imdb": "tt0434409",
+  "tmdbPath": "/movie/752",
+  "synopsis": "In a frightened Britain, a masked man and a woman who has already lost too much decide that compliance has gone far enough."
+ },
+ {
+  "n": 21,
+  "slug": "soylent-green",
+  "title": "Soylent Green",
+  "year": 1973,
+  "kind": "film",
+  "imdb": "tt0070723",
+  "tmdbPath": "/movie/12101",
+  "synopsis": "New York is overcrowded, food is a ration, and the ration has a source the public is not supposed to name."
+ },
+ {
+  "n": 22,
+  "slug": "the-road",
+  "title": "The Road",
+  "year": 2009,
+  "kind": "film",
+  "imdb": "tt0898367",
+  "tmdbPath": "/movie/20766",
+  "synopsis": "A father and son walk a burned country with a cart, a pistol, and a rule they keep repeating: we are the good guys."
+ },
+ {
+  "n": 23,
+  "slug": "the-searchers",
+  "title": "The Searchers",
+  "year": 1956,
+  "kind": "film",
+  "imdb": "tt0049730",
+  "tmdbPath": "/movie/3114",
+  "synopsis": "A Confederate veteran spends years hunting the people who took his niece. The longer he hunts, the clearer it is what the hunt has made him."
+ },
+ {
+  "n": 24,
+  "slug": "life-of-david-gale",
+  "title": "The Life of David Gale",
+  "year": 2003,
+  "kind": "film",
+  "imdb": "tt0289992",
+  "tmdbPath": "/movie/11615",
+  "synopsis": "A death-penalty opponent sits on death row while a reporter tries to tell whether the case is justice or a staged argument."
+ },
+ {
+  "n": 25,
+  "slug": "apocalypse-now",
+  "title": "Apocalypse Now",
+  "year": 1979,
+  "kind": "film",
+  "imdb": "tt0078788",
+  "tmdbPath": "/movie/28",
+  "synopsis": "A captain is sent upriver to kill a colonel who stopped taking orders. The official mission and the war he finds are not the same thing."
+ },
+ {
+  "n": 26,
+  "slug": "the-big-country",
+  "title": "The Big Country",
+  "year": 1958,
+  "kind": "film",
+  "imdb": "tt0051411",
+  "tmdbPath": "/movie/12501",
+  "synopsis": "A newcomer who will not duel on command walks into a land feud where both families treat refusal as cowardice."
+ },
+ {
+  "n": 27,
+  "slug": "children-of-men",
+  "title": "Children of Men",
+  "year": 2006,
+  "kind": "film",
+  "imdb": "tt0206634",
+  "tmdbPath": "/movie/9693",
+  "synopsis": "In a Britain that can no longer have children, one pregnant woman becomes the only concrete argument that there is a future."
+ },
+ {
+  "n": 28,
+  "slug": "rescue-dawn",
+  "title": "Rescue Dawn",
+  "year": 2007,
+  "kind": "film",
+  "imdb": "tt0462504",
+  "tmdbPath": "/movie/9952",
+  "synopsis": "A shot-down pilot plans an escape from a jungle prison while the men in the cell come apart in different ways."
+ },
+ {
+  "n": 29,
+  "slug": "the-impossible",
+  "title": "The Impossible",
+  "year": 2012,
+  "kind": "film",
+  "imdb": "tt1649419",
+  "tmdbPath": "/movie/80278",
+  "synopsis": "A vacationing family is torn apart by the 2004 tsunami and put back together mostly by strangers, not by institutions."
+ },
+ {
+  "n": 30,
+  "slug": "a-quiet-place",
+  "title": "A Quiet Place",
+  "year": 2018,
+  "kind": "film",
+  "imdb": "tt6644200",
+  "tmdbPath": "/movie/447332",
+  "synopsis": "Creatures hunt by sound, so a family's habits, chores, and children are now a single tactical problem."
+ },
+ {
+  "n": 31,
+  "slug": "jericho",
+  "title": "Jericho",
+  "year": 2006,
+  "kind": "series",
+  "imdb": "tt0805663",
+  "tmdbPath": "/tv/365",
+  "synopsis": "After nuclear strikes on American cities, a Kansas town has to decide who is in charge, what the radios are hiding, and how long “temporary” lasts."
+ }
+]

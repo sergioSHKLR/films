@@ -1,44 +1,48 @@
 {
   "name": "FILMS",
   "short_name": "FILMS",
-  "description": "Thirty-one films and series for a prepared civilian mindset: posters, cast, synopses, and discussion questions.",
+  "description": "The 31 films and series from Dirty Civilian's Vol. 1 list: posters, cast, trailers, and discussion questions with room for your answers.",
   "lang": "en",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#0f1115",
   "theme_color": "#0f1115",
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-maskable-192.png",
+      "src": "./icon-maskable-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icon-maskable-512.png",
+      "src": "./icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icon-monochrome-512.png",
+      "src": "./icon-monochrome-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "monochrome"
     }
   ],
-  "id": "/"
+  "id": "./",
+  "categories": [
+    "entertainment",
+    "education"
+  ]
 }
