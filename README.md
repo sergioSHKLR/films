@@ -1,4 +1,8 @@
-# Watchlist
+# FILMS
+
+<img src="brand-kit/films/icons/tile-dark.svg" width="48" height="48" alt="FILMS">
+
+FILMS (repo `watchlist`, formerly Watchlist) · Brand: [brand-kit/](brand-kit/README.md) (SHKLR brand kit, final 19 Nov 2026).
 
 A single-page catalog of the 31 films and series in [Dirty Civilian’s *Films that Build the Prepared Civilian Mindset, Vol. 1*](https://www.youtube.com/watch?v=acveRw9DxTs).
 

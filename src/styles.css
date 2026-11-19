@@ -1,16 +1,25 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "SHKLR Mono Narrow";
+  src: url("/fonts/SHKLRMonoNarrow[wght].woff2") format("woff2");
+  font-weight: 200 800;
+  font-display: swap;
+}
+
 @theme {
-  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Libre Baskerville", ui-serif, Georgia, serif;
-  --color-bg: #14160f;
-  --color-surface: #1e2318;
-  --color-surface-2: #262c1e;
-  --color-fg: #efe8d6;
-  --color-muted: #b3aa94;
+  /* SHKLR brand kit final (FILMS, 19 Nov 2026): content = system fonts, UI/wordmark = SHKLR Mono Narrow, plate #0f1115 */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-display: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+  --font-wordmark: "SHKLR Mono Narrow", "Monaspace Neon", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --color-bg: #0f1115;
+  --color-surface: #171a20;
+  --color-surface-2: #1f232a;
+  --color-fg: #f2f2f2;
+  --color-muted: #a3a3a5;
   --color-accent: #d06a2b;
   --color-accent-ink: #1a120c;
-  --color-line: #343b2b;
+  --color-line: #2c3038;
   --radius-card: 0;
 }
 

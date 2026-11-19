@@ -43,7 +43,7 @@ function Home() {
               <p className="text-xs font-semibold tracking-[0.28em] text-muted uppercase">
                 {brand.lockup.runningHeadText}
               </p>
-              <h1 className="mt-2 font-display text-5xl font-normal tracking-tight text-fg sm:text-6xl">
+              <h1 className="mt-2 font-wordmark text-5xl font-semibold tracking-tight text-fg sm:text-6xl">
                 {brand.name}
               </h1>
               <div
