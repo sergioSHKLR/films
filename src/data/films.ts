@@ -1,4 +1,4 @@
-/* Catalog for Watchlist.
+/* Catalog for FILMS (repo watchlist).
    Posters and cast photos are hotlinked from TMDB (https://www.themoviedb.org).
    This product is not endorsed or certified by TMDB.
    Discussion questions follow Dirty Civilian, "Films that Build the Prepared Civilian Mindset Vol. 1"
