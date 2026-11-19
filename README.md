@@ -1,6 +1,6 @@
-# FILMS
+<p align="center" data-brand-icon><img src="brand-kit/films/icons/tile-dark.svg" alt="FILMS" width="128" height="128"></p>
 
-<img src="brand-kit/films/icons/tile-dark.svg" width="48" height="48" alt="FILMS">
+# FILMS
 
 FILMS (repo `watchlist`, formerly Watchlist) · Brand: [brand-kit/](brand-kit/README.md) (SHKLR brand kit, final 19 Nov 2026).
 
